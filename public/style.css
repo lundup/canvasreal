@@ -1,0 +1,87 @@
+.icons{
+    display:flex;
+    justify-content: center;
+    background-color: lightblue;
+}
+.img-size{
+    height:50px;
+    width:50px;
+}
+
+
+.navbar{
+    background-color:red;
+    height:3rem;
+    width: 10rem;
+    display: flex;
+}
+.minimize{
+    background-color: blue;
+    height:90%;
+    width:25%;
+    border-radius: 50%;
+}
+.close{
+    background-color: yellow;
+    height: 90%;
+    width: 25%;
+    border-radius: 50%;
+}
+
+.sticky{
+    position: absolute;
+    background-color: brown;
+  
+left:15rem;
+    top:15rem;
+}
+
+.textarea{
+
+    height:15rem;
+    width: 10rem;
+}
+.tools{
+    position:relative;
+}
+
+.pencil-option{
+    height: 6rem;
+    width:12rem;
+    background-color: brown;
+    position: absolute;
+    top:3rem;
+    left: -4rem;
+   
+}
+
+.pencil-color{height: 50%;
+background-color: gray;
+display: flex;
+justify-content: space-around
+
+}
+
+.color-button{
+    height:90%;
+    width:25%;
+    border-radius: 50%;
+    
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+
+}
+.yellow{
+    background-color: yellow;
+}
+
+    #pencil-size{
+        margin: 10px 25px;
+    }
+
+
+

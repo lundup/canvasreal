@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>White board </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="icons">
+        <div class="tools">
+               <img src="eraser.svg" class="img-size" onclick="toolHandle('eraser')" alt="">
+                    <div class="tool-options eraser-options"></div>
+
+        </div>
+        
+       
+        <div class="tools">
+                <img src="pencil.svg" class="img-size"  onclick="toolHandle('pencil')" alt="">
+                    
+                    <div class="pencil-option">
+                        <div class="pencil-color">
+                            <div class="red color-button" onclick="colorhandle('red')"></div>
+                            <div class="blue color-button" onclick="colorhandle('blue')"></div>
+                            <div class="yellow color-button" onclick="colorhandle('yellow')"></div>
+                        </div>
+                        <div class="pencil-slider">
+                        <input type="range" name="slider" value="5" min="1" max="20" id="pencil-size">
+
+                        </div>
+                    </div>
+        </div >
+
+        <div class="tools">
+                <img src="sticky.svg" class="img-size"  onclick="toolHandle('sticky')" alt="">
+
+        </div> 
+        
+    </div>
+    <canvas class="board">
+
+    </canvas>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.dev.js" crossorigin></script>
+    <script src="script.js">
+        <script src="tool.js"></script>
+        <script src="sticky.js"></script>
+        <script src="reciever.js"></script>
+</body>
+</html>
